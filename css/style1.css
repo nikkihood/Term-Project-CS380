@@ -9,14 +9,12 @@ main{
 
 }
 header{
-    background-image:url("");
+    background-image:url("../images/animalShelterCover1.jpeg ");
     background-size: cover;
     width: 100%;
-    height:100px;
-    min-height:400px;
-    max-width:1100px;
+    height:600px;
     margin:0 auto;
-  
+    display:inline-block;
 }
 nav h1 {
     display: inline-block;
@@ -24,11 +22,10 @@ nav h1 {
     font-family: 'Bebas Neue', cursive;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.35); /* Header text shadow */
     background-image: url("../images/logo.png");
-   background-repeat: no-repeat;
-   background-size:60px;
-   height:60px;
-   padding-left:80px;
-   padding-top:20px;
+    background-repeat: no-repeat;
+    height:60px;
+    padding-left:100px;
+    padding-top:20px;
 }
 
 
