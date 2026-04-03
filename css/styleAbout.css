@@ -47,6 +47,7 @@ nav {
 }
 nav h1{
     color:white;
+    font-size:24pt;
 }
 ul{
     width:100vw;
@@ -64,17 +65,17 @@ nav .linkOrange{
     border: 2px rgb(226, 110, 64);
     border-radius:1rem;
     text-decoration: none;
-    padding:1rem;
+    padding:.75rem;
     color:white
 }
 
 .link{
-    padding:1rem;
+    padding:.5rem;
     margin:.25rem;
     text-decoration: none;
     background-color:rgb(141, 141, 192);
     border: 2px rgb(103, 103, 143);
-    border-radius:1rem;
+    border-radius:.75rem;
     
 }
 .link:hover {
@@ -82,12 +83,7 @@ nav .linkOrange{
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
 }
-.cover{
-    background-image:url("../images/animalShelterCover1.jpeg ");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding:3rem 0;
-} 
+
 footer{
     margin-top:2rem;
     padding:1rem;
@@ -98,46 +94,14 @@ footer{
 
  
 #logo{
-    margin: 1rem;
+    margin: .75rem;
     padding-left: 2rem;
     display:inline-block;
-    height:100px;
-    width:160px;
+    height:80px;
+    width:140px;
 }
-#statement
-{
-    display:inline-block;
-    text-align: left;
-    font-family: "Dancing Script", cursive;
-    color:rgb(255, 255, 255);
-    font-size: 24pt;
-    margin-top:5rem;
-    text-shadow:2px 2px 2px rgb(11, 10, 10);
-    background-color:rgba(41, 52, 53, 0.295) ;
-    padding:.5rem;
-    border-radius: 1rem;
-}
-.image-section img{
-    width:300px;
-    height:300px;
-}
-.image-section {
-    margin:0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-   
-}
-.puppy{
-    margin:1rem 2rem;
-    padding:1rem 1rem 1rem 1rem;
-    text-align: center;
-}
-h2{
-    text-align: center;
-    font-family: "Fjalla One", sans-serif;
 
-}
+
+
 
 
