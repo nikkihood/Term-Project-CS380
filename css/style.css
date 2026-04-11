@@ -50,12 +50,12 @@ nav h1{
     font-size:24pt;
 
 }
-ul{
+nav ul{
     width:100vw;
     margin:0 auto;
     
 }
-li{
+nav li{
     display:inline-block;
     vertical-align: center;
     margin:1rem;
@@ -77,12 +77,15 @@ nav .linkOrange{
     background-color:rgb(141, 141, 192);
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
+    color:white;
+    letter-spacing: .3px;
     
 }
 .link:hover {
     background-color:rgb(162, 162, 189);
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
+    color:white;
 }
 .cover{
     background-image:url("../images/animalShelterCover1.jpeg ");
@@ -201,6 +204,45 @@ h2{
     text-align: center;
     font-family: "Fjalla One", sans-serif;
 }
+ .AdditionalLinks{
+    width: 100%;
+    padding-bottom:2rem;
+ }
+.AdditionalLinks h2{
+   margin: 2rem 0;
+}
+.AdditionalLinks ul{
+    list-style-type: none;
+}
+ .AdditionalLinks #links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+    font-family: "Fjalla One", sans-serif;
+    
+ }
 
+
+ #links li:nth-child(odd) a {
+     background-color: rgba(235, 151, 72, 0.678) !important; /* Orange background */
+     color: white;
+     padding: 0.5rem 1rem;
+     text-decoration: none;
+     border-radius: 0.5rem;
+     display: inline-block;
+    
+ }
+ #links li:nth-child(even) a {
+     background-color: rgba(100, 100, 182, 0.295) !important; /* Purple background */
+     color: white;
+     padding: 0.5rem 1rem;
+     text-decoration: none;
+     border-radius: 0.5rem;
+     display: inline-block;
+  
+ }
+    
 
 
